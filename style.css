@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.jumbotron {
+    border-radius: 0px;
+    min-height: 600px;
+    margin-bottom: 80px;
+}
+.jumbotron h1{
+    color: white;
+}
+.intro {
+    background-image: url('http://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-bg.jpg');
+}
+.navbar{
+    margin-top: -48px;
+}
+
+.navbar-brand, .nav>li>a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    color: #DDD;
+    text-decoration: none;
+}
+.nav>li>a:hover{
+    color: #DDD;
+    background-color: transparent;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: ;
+    color: white;  
+}
+
+.navbar-brand {
+    font-size: 120%;
+    font-weight: bold;
+    color: white; 
+}
+
+em {
+    font-family: 'Lora', serif;
+}
+
+.pull-left {
+    padding-right: 5px;   
+}
+.pull-right {
+    padding-top: 3px;
+}
+.navbar {
+    background-color: transparent;
+}
+@media (max-width: 767px) {
+    .navbar {
+    background-color: white;
+    margin-top: -31px;
+    }
+    .navbar-brand{
+    color: #333333;
+    }
+    a { 
+    color: grey;
+    }
+    a:focus, a:hover{
+        color: #555555;
+    }
+}
+#menuButton {
+    border: 1px solid lightgray;
+}
+
+.icon-bar {
+    background-color: gray;
+}
+
+#contentIntro {
+    margin-top: 90px;
+}
+
+.bslink {
+    color: white;
+    text-decoration: none;
+}
+.bslink:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.postText p, .copyright {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.postText h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;  
+}
+
+.blockquote p {
+    font-size: 20px;
+    color: grey;
+}
+.figure {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: grey;  
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    margin-bottom: 10px;
+}
+.space {
+    margin-top: 10px;
+} 
+.linkRef>a {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.linkRef a:hover {
+    color: #337ab7;
+}
+
+footer>.list-inline {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.icon {
+    list-style: none;
+    display: inline;
+}
+.text-center {
+    text-align: center;  
+}
+ul {
+    display: block;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#social {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.fa {
+    color: #333;
+}
+.fa-stack:hover .fa.fa-circle {
+    color: #337ab7;
+}
+.copyright {
+    font-size: 14px;
+    margin-left: 35px;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
